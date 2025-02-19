@@ -30,7 +30,7 @@ export function MediaVideoElementStatic({
           style={{ width }}
         >
           <video
-            className={cn('w-full max-w-full object-cover px-0', 'rounded-sm')}
+            className={cn('w-full max-w-full object-cover px-0', 'rounded-xs')}
             src={url}
             controls
           />

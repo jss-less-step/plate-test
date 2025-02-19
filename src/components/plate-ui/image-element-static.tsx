@@ -37,7 +37,7 @@ export function ImageElementStatic({
           <img
             className={cn(
               'w-full max-w-full cursor-default object-cover px-0',
-              'rounded-sm'
+              'rounded-xs'
             )}
             alt=""
             src={url}

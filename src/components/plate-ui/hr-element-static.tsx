@@ -17,7 +17,7 @@ export function HrElementStatic({
         <hr
           {...nodeProps}
           className={cn(
-            'h-0.5 rounded-sm border-none bg-muted bg-clip-content'
+            'h-0.5 rounded-xs border-none bg-muted bg-clip-content'
           )}
         />
       </div>

@@ -11,7 +11,7 @@ import { useEditorRef } from '@udecode/plate/react';
 import { cva } from 'class-variance-authority';
 import { ArrowLeft, ArrowRight, Download, Minus, Plus, X } from 'lucide-react';
 
-const toolButtonVariants = cva('rounded bg-[rgba(0,0,0,0.5)] px-1', {
+const toolButtonVariants = cva('rounded-sm bg-[rgba(0,0,0,0.5)] px-1', {
   defaultVariants: {
     variant: 'default',
   },
@@ -106,7 +106,7 @@ export const ImagePreview = () => {
               <div className="mx-px">
                 {isEditingScale ? (
                   <>
-                    <ScaleInput className="w-10 rounded px-1 text-slate-500 outline" />{' '}
+                    <ScaleInput className="w-10 rounded-sm px-1 text-slate-500 outline" />{' '}
                     <span>%</span>
                   </>
                 ) : (

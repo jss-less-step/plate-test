@@ -147,7 +147,7 @@ export const MediaPlaceholderElement = withHOC(
           {(!loading || !isImage) && (
             <div
               className={cn(
-                'flex cursor-pointer items-center rounded-sm bg-muted p-3 pr-9 select-none hover:bg-primary/10'
+                'flex cursor-pointer items-center rounded-xs bg-muted p-3 pr-9 select-none hover:bg-primary/10'
               )}
               onClick={() => !loading && openFilePicker()}
               contentEditable={false}
@@ -219,7 +219,7 @@ export function ImageProgress({
     <div className={cn('relative', className)} contentEditable={false}>
       <img
         ref={imageRef}
-        className="h-auto w-full rounded-sm object-cover"
+        className="h-auto w-full rounded-xs object-cover"
         alt={file.name}
         src={objectUrl}
       />

@@ -23,7 +23,7 @@ export const ColumnGroupElement = withRef<typeof PlateElement>(
     return (
       <PlateElement ref={ref} className={cn(className, 'mb-2')} {...props}>
         <ColumnFloatingToolbar>
-          <div className={cn('flex size-full rounded')}>{children}</div>
+          <div className={cn('flex size-full rounded-sm')}>{children}</div>
         </ColumnFloatingToolbar>
       </PlateElement>
     );

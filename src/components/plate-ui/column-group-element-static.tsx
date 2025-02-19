@@ -12,7 +12,7 @@ export function ColumnGroupElementStatic({
 }: SlateElementProps) {
   return (
     <SlateElement className={cn(className, 'mb-2')} {...props}>
-      <div className={cn('flex size-full rounded')}>{children}</div>
+      <div className={cn('flex size-full rounded-sm')}>{children}</div>
     </SlateElement>
   );
 }

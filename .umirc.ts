@@ -35,7 +35,6 @@ export default defineConfig({
       component: "../app/editor/page.tsx",
     }
   ],
-
+  extraPostCSSPlugins:["@tailwindcss/postcss"],
   npmClient: "npm",
-  tailwindcss: {},
 });
